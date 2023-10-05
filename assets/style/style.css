@@ -1,3 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope';
+    color: #fff;
+}
+
+body{
+    background-color: #0f0f0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+}
+
+button{
+    position: absolute;
+    bottom: 20vh;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #00ff85;
+    color: #0f0f0f;
+    font-weight: 700;
+    border: none;
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.question input{
+    margin-right: 10px;
+}
+
+.question:nth-child(1){
+    flex-direction: column;
+}
+
 .none {
     display: none;
 }
