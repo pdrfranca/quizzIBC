@@ -30,7 +30,13 @@ button{
 .question{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     gap: 30px;
+    background-color: #424242;
+    padding: 50px;
+    min-height: 400px;
+    min-width: 400px;
+    border-radius: 10px;
 }
 
 .question input{
